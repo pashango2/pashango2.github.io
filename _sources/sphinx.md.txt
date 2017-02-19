@@ -14,9 +14,7 @@ SphinxはPytho製のドキュメント生成ツールです。
 ## LaTexによる数式
 
 ```math
-\frac{1}{2} \frac{\partial j}{\partial p_2}
-=
-3 t \left(t - 1\right)^{2} \left(- p_{1} \left(t - 1\right)^{3} + 3 p_{2} t \left(t - 1\right)^{2} - 3 p_{3} t^{2} \left(t - 1\right) + p_{4} t^{3} - px\right)
+\frac{3 \pi}{2} + \frac{e{i x}}{x{2} + y}
 ```
 
 数式を``$\frac{1}{2} \frac{\partial j}{\partial p_2}$``のようにインラインで記述可能。
@@ -25,6 +23,13 @@ SphinxはPytho製のドキュメント生成ツールです。
 
 [Font Awesome](http://fontawesome.io/)を使用することも可能です。
 
+```HTML
+ <i class="fa fa-flag" aria-hidden="true"></i> Font Awesome
+ ```
+
 ## GitHubPage対応
 
 このようにGitHubPageにも簡単に対応可能です。
+
+
+oko
