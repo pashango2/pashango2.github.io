@@ -32,4 +32,8 @@ SphinxはPytho製のドキュメント生成ツールです。
 このようにGitHubPageにも簡単に対応可能です。
 
 
-oko
+## PDFで出力
+
+```
+$ make latexpdfja
+```
