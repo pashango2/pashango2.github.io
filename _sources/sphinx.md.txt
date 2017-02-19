@@ -1,0 +1,30 @@
+# Sphinxとは？
+
+SphinxはPytho製のドキュメント生成ツールです。
+
+- ドキュメント内の検索機能
+- テキストベースなのでGitなどで履歴管理が可能
+- 記述言語は`reStructuredText`だが`CommonMarkdown`も使用可能
+- `HTML`以外にも`ePub`、`PDF`など様々な出力形式
+- `LaTeX`を使用した数式も記述可能
+- Jupyter Notebook も取り込み可能
+- Font Awesome 使用可能
+- オートビルド可
+
+## LaTexによる数式
+
+```math
+\frac{1}{2} \frac{\partial j}{\partial p_2}
+=
+3 t \left(t - 1\right)^{2} \left(- p_{1} \left(t - 1\right)^{3} + 3 p_{2} t \left(t - 1\right)^{2} - 3 p_{3} t^{2} \left(t - 1\right) + p_{4} t^{3} - px\right)
+```
+
+数式を``$\frac{1}{2} \frac{\partial j}{\partial p_2}$``のようにインラインで記述可能。
+
+## <i class="fa fa-flag" aria-hidden="true"></i> Font Awesome
+
+[Font Awesome](http://fontawesome.io/)を使用することも可能です。
+
+## GitHubPage対応
+
+このようにGitHubPageにも簡単に対応可能です。
